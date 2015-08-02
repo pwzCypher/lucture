@@ -1,0 +1,86 @@
+/*
+ * common
+ */
+
+ul li{
+    list-style:none;
+    display:inline-block;
+}
+
+/*
+ * header
+ */
+#header{
+    border-bottom:1px solid #ccc;
+}
+/*
+ * footer
+ */
+#footer{
+    border-top:1px solid #ccc;
+    margin-top:20px;
+}
+.footer-link
+{
+	text-align:center;
+	margin:5px;
+	padding:5px
+}
+/*
+ * main
+ */
+#content {
+    margin:auto;
+}
+
+.item {
+    margin: 5px;
+    padding: 5px;
+    background: #D8D5D2;
+    width:180px;
+    float: left;
+    background:#ccc;
+}
+.item2
+{
+	margin: 5px;
+    padding: 5px;
+    background: #D8D5D2;
+    width:300px;
+    float: left;
+    background:#ccc;
+	
+	
+}
+.h1 {
+    height:100px;
+}
+
+.h2 {
+    height:200px;
+}
+
+.h3
+{
+	height:300px;
+	width:300px!important;
+}
+
+.btn
+{
+	height:100px;
+	width:400px;
+}
+.btn:hover
+{
+	opacity:0.8;
+}
+
+/*
+media 
+*/
+@media (min-width: 992px){
+.container {
+    width: 990px!important;
+}
+}
