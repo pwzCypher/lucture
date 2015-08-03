@@ -31,6 +31,7 @@ ul li{
  */
 #content {
     margin:auto;
+    width:980px;
 }
 
 .item {
@@ -79,8 +80,8 @@ ul li{
 /*
 media 
 */
-@media (min-width: 992px){
+
 .container {
     width: 990px!important;
-}
+    margin:0 auto;
 }
