@@ -35,22 +35,27 @@
 	display: inline-block
 
 }
-.box div:last-child;
-{
-	width:48%!important;
-}
+
 img
 {
 	max-width:100%;
 }
-
-.clearfix
-{
-	display:block;
-}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
 .box
 {
-    height: 340px;
+   
     margin-bottom: 30px;
 }
 .center
